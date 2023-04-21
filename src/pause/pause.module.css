@@ -1,0 +1,30 @@
+.counter{
+    box-sizing: border-box;
+    width:300px;
+    height:40px;
+    margin:10px auto;
+    background-color: black;
+    color: aqua;
+    font-size: large;
+    text-align: center;
+    line-height: 1.5;
+    
+        
+}
+.controlPause{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width:300px;
+    margin: 15px auto;
+  
+}
+.controlPause > button{
+    width:calc(300px/3);
+    height:40px;
+    color: aqua;
+    font-size: smaller;
+    font-weight: 400;
+    background-color: black;
+}
